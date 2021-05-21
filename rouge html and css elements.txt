@@ -1,0 +1,39 @@
+1200 grid
+font Monsterrat bold 30px
+background color (#ffffff)
+
+Header Section
+	rogue (color #77a466)
+	full-width
+	contains the nav
+		about
+		menu
+		Locations
+		Gallery
+		Review
+		Content
+
+Top Section
+	full-width
+	contain image
+	welcome header
+	welcome paragraph
+	has a border bottom
+
+Bottom Section
+	full-width broken into thirds
+	has borders on top, on the sides, and on the bottom
+	
+	Section one
+		today's special header
+		(color #e0e9dd)
+
+	Section two
+		our awsome reviews header
+
+	Section three
+		contact us header
+
+Footer Section
+	POWERED BY LOTS OF (fresh color #c9dbc2) empahsized
+	

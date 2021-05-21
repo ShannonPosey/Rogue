@@ -1,0 +1,169 @@
+/****** Base style  ******/
+body {
+    font-family: 'Monsterrat', Arial, Helvetica, sans-serif;
+}
+
+/****** Grid ******/
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+/****** Alphabetize your CSS Properties within each code block******/
+
+
+h1,
+h2,
+h3 {
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Elements that you want to have the same style can be place before each specified class and id  */
+
+/****** Style from Top to bottom and work from outside in i.e classes/id, then html element, then the nested elements ******/
+
+/****** Header  ******/
+
+header {
+    border-bottom: 2px #77a466 solid;
+    height: 100px;
+    line-height: 20px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+h1 {
+    float: left;
+    display: block;
+
+}
+
+header nav {
+    float: right;
+    padding: 5px 5px;
+}
+
+header nav ul li {
+    color: #77a466;
+    display: inline;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+
+/******  Top Section ******/
+
+.main-image {
+    float: left;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.main-image img {
+    border-bottom: 2px #77a466 solid;
+}
+
+.main-title {
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 40px;
+
+}
+
+.main-title h2 {
+    color: #77a466;
+    font-variant: small-caps;
+    line-height: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/******  Bottom Section ******/
+.bottom-section {
+    border: 1px solid lightgray;
+}
+
+.section-one,
+.section-two,
+.section-three{
+    border: 1px;
+    width: 300px;
+    float: left;
+    height: auto;
+    margin: 20px 20px 20px 20px;
+    padding: 25px;
+    text-align: left;
+}
+
+.section-two{
+    border-left: 1px lightgray solid;
+    border-right: 1px lightgray solid;
+   }
+
+.section-two h3, 
+.section-three h3{
+    text-align: left;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.menu li{
+    color: #77a466;
+    line-height: 21px;
+    list-style: none;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.reviews{
+        line-height: 21px;
+    }
+
+.contact{
+    font-size: 16px;
+    line-height: 21px;
+}
+
+   
+/* *****  Footer *****/
+footer {
+    border-top: 1px gray solid;
+    clear: both;
+    height: 60px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+footer span {
+    color: #77a466;
+    font-style: italic;
+    text-transform: lowercase;
+} 
